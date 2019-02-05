@@ -18,7 +18,7 @@ To get an overview about the available versions please take a look at the [GitHu
 
 ## Ports
 
-* 8080
+* 80
 
 
 ## Available environment variables
@@ -89,7 +89,7 @@ docker run -d \
   --name owncloud \
   --link mariadb:db \
   --link redis:redis \
-  -p ${HTTP_PORT}:8080 \
+  -p ${HTTP_PORT}:80 \
   -e OWNCLOUD_DOMAIN=${OWNCLOUD_DOMAIN} \
   -e OWNCLOUD_DB_TYPE=mysql \
   -e OWNCLOUD_DB_NAME=owncloud \

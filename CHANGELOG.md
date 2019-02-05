@@ -4,7 +4,7 @@
 
 * Changed
   * Prepare for new `owncloud/base` image
-  * Changed port from `80` to `8080`
+  * Changed port from `8080` to `80`
   * Renamed utf8mb4 env variable to new name
 * Removed
   * Dropped port `443`, use a reverse proxy for SSL
