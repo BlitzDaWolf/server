@@ -1,1 +1,1 @@
-*/1  *  *  *  * www-data /usr/bin/cronjob
+*/1  *  *  *  * root /usr/bin/cronjob
