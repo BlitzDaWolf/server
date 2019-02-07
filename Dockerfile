@@ -1,4 +1,4 @@
-FROM owncloud/base:bionic
+FROM blitzdawolf/base:bionic
 
 LABEL maintainer="ownCloud DevOps <devops@owncloud.com>" \
   org.label-schema.name="ownCloud Server" \
