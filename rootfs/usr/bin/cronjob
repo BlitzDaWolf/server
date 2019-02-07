@@ -20,7 +20,7 @@ fi
 
 if [[ "$(id -u)" == "0" ]]
 then
-  su-exec www-data php -f /var/www/owncloud/cron.php
+  su-exec root php -f /var/www/owncloud/cron.php
 else
   php -f /var/www/owncloud/cron.php
 fi
